@@ -16,6 +16,6 @@ I tested the pressure sensor, and I found its numerical range is between three a
 I tested it on processing, and I found I made some mistake which I can't solve it. why my value of arduino can not transfer to processing?
 
 
-If I have enough time, I want to try useing the IR sensor, temperature and others connect it with arduino,and visualize the data.
+If I have enough time, I want to try using the IR sensor, temperature and others connect it with arduino,and visualize the data.
 
 
