@@ -15,3 +15,43 @@ I tested the pressure sensor, and I found its numerical range is between three a
 4.I want to achieve arduino and processing communication. 
 I tested it on processing, and I found I made some mistake which I can't solve it. why my value of arduino can not transfer to processing?
 
+
+
+
+//my arduino codes
+
+
+
+int led = 12;
+//define pin code
+int pressureSensorPin=1;
+
+char val;
+
+void setup() {
+  // put your setup code here, to run once:
+Serial.begin(9600);
+pinMode(led,OUTPUT);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+int pressureSensorState = analogRead(pressureSensorPin);
+
+Serial.print (pressureSensorState);
+Serial.print ("~");
+// print pressure in test window
+//Serial.write(pressureSensorState);
+
+
+
+if(pressureSensorState>700){
+  digitalWrite(led,HIGH);
+ // delay(100);
+  }
+else{
+  digitalWrite(led,LOW);
+  }
+delay(1000);
+}
