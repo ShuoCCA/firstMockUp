@@ -1,0 +1,34 @@
+import processing.serial.*;
+// import arduino
+
+Serial myPort;
+int Val;
+ int Value;
+ 
+ 
+ void setup(){
+ size(800,800);
+ background(0);
+ 
+ String portName =Serial.list()[0];
+ myPort = new Serial(this,portName,9600);
+ 
+ 
+ }
+ 
+ 
+ void draw (){
+ background(0);
+ 
+ if (myPort.available()>0)
+ {
+ //Val = myPort. readStringUntil('\n');
+ Val=myPort.read();
+ println(Val);
+ }
+  println(Val);
+ fill(19);
+ textSize(20);
+ text(Val,10,20);
+ 
+ }
