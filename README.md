@@ -12,7 +12,7 @@ week4_homework
 I tested the pressure sensor, and I found its numerical range is between three and four digits, so I want to show the value )
 
 
-4.I want to achieve arduino and processing communication. 
+4.I want to achieve arduino and processing communication. I want to Visualize the data  with processing
 I tested it on processing, and I found I made some mistake which I can't solve it. why my value of arduino can not transfer to processing?
 
 
