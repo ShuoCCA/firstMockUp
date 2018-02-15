@@ -18,6 +18,6 @@ I tested it on processing, and I found I made some mistake which I can't solve i
 
 If I have enough time, I want to try using the IR sensor, temperature and others connect it with arduino,and visualize the data and make something move, like turn on a small fan?
 
-![image] (https://github.com/ShuoCCA/firstMockUp/blob/master/IMG_2434.JPG?raw=true)
+![image](https://github.com/ShuoCCA/firstMockUp/blob/master/IMG_2434.JPG?raw=true)
 
 
